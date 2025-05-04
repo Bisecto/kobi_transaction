@@ -161,7 +161,7 @@ class TransactionContainer extends StatelessWidget {
   }
 
   String _formatAmount(double amount) {
-    final formatter = NumberFormat.currency(symbol: '\$', decimalDigits: 2);
+    final formatter = NumberFormat.currency(symbol: '₦', decimalDigits: 2);
     return formatter.format(amount);
   }
 }
