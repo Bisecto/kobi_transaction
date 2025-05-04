@@ -1,16 +1,35 @@
 # kobi_test
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Project Structure
+lib/
+├── bloc/
+│   └── transaction_bloc/  
+│            └──  transaction_bloc.dart
+│            └──  transaction_event.dart
+│            └──  transaction_state.dart
+├── model/
+│   └── transaction_model.dart   
+├── res/
+│   └── apis.dart   
+│   └── app_colors.dart   
+│   └── app_enums.dart   
+│   └── app_icons.dart   
+│   └── app_strings.dart   
+├── utils/
+│   └── app_navigator.dart 
+│   └── app_utils.dart 
+│   └── custom_route.dart 
+├── views/
+│   └── app_screens/
+│            └──  app_widgets/
+│                          └──  filter_widget.dart
+│                          └──  not_found_widget.dart
+│                          └──  transaction_Container.dart
+│            └──  transaction_activity.dart
+│   └── widget.dart/
+│            └──  app_custom_text.dart
+│            └──  app_spacer.dart
+│            └──  form_button.dart
+│            └──  form_input.dart
+│
+└── main.dart                     
