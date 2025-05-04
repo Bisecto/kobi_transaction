@@ -1,3 +1,22 @@
+# 💸 Kobi Transaction
+
+**Kobi Transaction** is a Flutter application for managing and displaying transaction activities using the BLoC pattern. The app demonstrates clean architecture, reusable components, and a well-organized project structure suitable for scaling.
+
+---
+
+## 🚀 Features
+
+- Display and filter transaction history
+- Modular widget components
+- Clean architecture with BLoC
+- Reusable navigation and utilities
+- Custom theming and assets
+
+---
+
+## 📦 Project Structure
+
+```plaintext
 lib/
 ├── bloc/
 │   └── transaction_bloc/
@@ -35,4 +54,6 @@ lib/
 │       └── form_input.dart
 │
 └── main.dart
+
+
 ![Trabsaction Demo](assets/transactions.gif)
